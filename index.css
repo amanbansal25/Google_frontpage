@@ -1,0 +1,127 @@
+*{
+    list-style: none;  
+    color: black;
+    margin: 0px 0px;
+    padding: 0px 0px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+/* navbar  */
+.nav-bar li{
+    
+    text-align: center; 
+    display: inline-block;
+    position: relative;
+    left: 80%;
+    padding: 5px;
+    margin: 5px 5px; 
+}
+
+.nav-bar button{
+    padding: 10px;
+    width: 100px;
+    background-color: blue;
+    border-style: none;
+    border-radius: 5px;
+    color: wheat;
+}
+
+/* google image   */
+
+.google-image{
+    text-align: center;
+    font-size: 100px;
+    margin: 5px auto;
+}
+
+.google-search input{
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: 50px auto;
+    padding: auto;
+    border-radius: 20px;
+}
+
+.search-button{
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+
+.search-button li{
+    display: inline-block;
+    /* margin: */
+    /* width: 20%; */
+
+}
+
+.search-button li button{
+    width: 200px;
+    height: 30px ;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+
+/* Footer */
+footer{
+    background-color: gray;
+    color: darkgray;
+}
+.country-name a{
+   margin: 10px 10px;
+   /* font-size: 10px; */
+
+}
+.contact-links{
+    
+    padding: 10px auto;
+}
+
+.first-list {
+    
+    display: inline-block;  
+    padding: 10px 200px;
+    /* float: left;  */
+}
+
+.first-list li{
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 10px 5px;
+}
+
+.second-list{
+    
+    display: inline-block;
+    padding: 10px 100px;
+    /* float: right; */
+}
+
+.second-list li{
+    display: inline;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+
+hr{
+    width: 100%;
+    border-color: gray;
+    border: 0px 0px 0px 5px;
+}
+
+
+/* hover  */
+
+a:hover{
+    text-decoration: underline;
+}
+
+.search-button button:hover{
+    border-width: 1px ;
+    border-color: gray;
+}
